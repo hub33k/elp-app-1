@@ -6,10 +6,17 @@
   "keywords": [],
   "author": "hub33k",
   "license": "unlicensed",
-  "main": "./src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
+    "prebuild": "rimraf ./dist",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.3"
+  }
 }
