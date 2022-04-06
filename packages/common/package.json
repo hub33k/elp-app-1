@@ -1,0 +1,15 @@
+{
+  "name": "common",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "hub33k",
+  "license": "unlicensed",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
