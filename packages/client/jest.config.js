@@ -8,6 +8,8 @@ const createJestConfig = nextJest({
 // Add any custom config to be passed to Jest
 const customJestConfig = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  moduleDirectories: ['node_modules', '<rootDir>/'],
+  modulePathIgnorePatterns: ['cypress'],
   moduleNameMapper: {
     // Handle module aliases (this will be automatically configured for you soon)
     '^~(.*)$': '<rootDir>/$1',
