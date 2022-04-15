@@ -1,6 +1,6 @@
 const config = {
   app: {
-    name: 'elp-app-1',
+    name: 'monorepo-template',
   },
 };
 

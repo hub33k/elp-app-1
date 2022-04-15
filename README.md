@@ -1,4 +1,4 @@
-# elp-app-1
+# monorepo-template
 
 This is a monorepo.
 
